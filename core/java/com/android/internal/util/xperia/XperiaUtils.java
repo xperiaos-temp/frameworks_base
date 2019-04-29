@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.gzosp;
+package com.android.internal.util.xperia;
 
 import android.content.Context;
 import android.content.Intent;
@@ -45,7 +45,7 @@ import android.view.WindowManagerGlobal;
 
 import java.util.Locale;
 
-public class GzospUtils {
+public class XperiaUtils {
 
     private static int sDeviceType = -1;
     private static final int DEVICE_PHONE = 0;

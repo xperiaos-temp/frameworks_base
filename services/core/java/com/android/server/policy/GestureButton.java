@@ -43,8 +43,8 @@ import android.view.WindowManagerPolicyConstants.PointerEventListener;
 import android.view.inputmethod.InputMethodManagerInternal;
 
 import com.android.internal.R;
-import com.android.internal.util.gzosp.GzospUtils;
-import com.android.internal.util.gzosp.TaskUtils;
+import com.android.internal.util.xperia.XperiaUtils;
+import com.android.internal.util.xperia.TaskUtils;
 import com.android.server.LocalServices;
 
 public class GestureButton implements PointerEventListener {
@@ -278,7 +278,7 @@ public class GestureButton implements PointerEventListener {
     }
 
     private void triggerGestureVirtualKeypress(int keyCode) {
-        GzospUtils.sendKeycode(keyCode);
+        XperiaUtils.sendKeycode(keyCode);
     }
 
     void navigationBarPosition(int displayWidth, int displayHeight, int displayRotation) {

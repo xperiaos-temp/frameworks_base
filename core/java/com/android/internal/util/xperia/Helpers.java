@@ -1,4 +1,4 @@
-package com.android.internal.util.gzosp;
+package com.android.internal.util.xperia;
 
 import android.app.ActivityManager;
 import android.app.ActivityManagerNative;

@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.internal.util.gzosp;
+package com.android.internal.util.xperia;
 
 import android.app.Activity;
 import android.app.ActivityOptions;
